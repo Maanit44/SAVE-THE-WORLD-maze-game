@@ -185,10 +185,10 @@ if (gameState === play){
   if(keyDown("a")||keyDown("LEFT_ARROW")){
     you.x = you.x-4;
   }
-  if(keyDown("w")||("UP_ARROW")){
+  if(keyDown("w")||keyDown("UP_ARROW")){
     you.y = you.y-4;
   }
-  if(keyDown("s")||("DOWN_ARROW")){
+  if(keyDown("s")||keyDown("DOWN_ARROW")){
     you.y = you.y+4;
   }
 
