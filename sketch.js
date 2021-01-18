@@ -161,8 +161,8 @@ function setup() {
 
 function draw() {
   background("pink");
-  text(mouseY,50,10);
-  text(mouseX,10,10);
+  //text(mouseY,50,10);
+  //text(mouseX,10,10);
 
   wasd.visible = true;
   text1.visible = false;
