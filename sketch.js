@@ -179,16 +179,16 @@ if (gameState === play){
   text1.visible = false;
   wasd.visible = false;
 
-  if(keyDown("d")){
+  if(keyDown("d")||keyDown("DOWN_ARROW")){
     you.x = you.x+4;
   }
-  if(keyDown("a")){
+  if(keyDown("a")||keyDown("LEFT_ARROW")){
     you.x = you.x-4;
   }
-  if(keyDown("w")){
+  if(keyDown("w")||("UP_ARROW")){
     you.y = you.y-4;
   }
-  if(keyDown("s")){
+  if(keyDown("s")||("DOWN_ARROW")){
     you.y = you.y+4;
   }
 
