@@ -179,7 +179,7 @@ if (gameState === play){
   text1.visible = false;
   wasd.visible = false;
 
-  if(keyDown("d")||keyDown(DOWN_ARROW)){
+  if(keyDown("d")||keyDown(RIGHT_ARROW)){
     you.x = you.x+4;
   }
   if(keyDown("a")||keyDown(LEFT_ARROW)){
